@@ -5,7 +5,7 @@ def create_db():
         sqlite_connection = sqlite3.connect('sqlite_python.db')
         cursor = sqlite_connection.cursor()
 
-        with open('sqlite_1create_tables.sql', 'r') as sqlite_file:
+        with open('sqlite_create_tables.sql', 'r') as sqlite_file:
             sql_script = sqlite_file.read()
 
         cursor.executescript(sql_script)
