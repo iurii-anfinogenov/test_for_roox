@@ -3,6 +3,7 @@
 
 ```
 git clone https://github.com/iurii-anfinogenov/test_for_roox.git
+cd test_for_roox/
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
